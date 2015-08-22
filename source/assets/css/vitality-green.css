@@ -113,6 +113,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+p.left {
+    text-align: left;
+}
 p.lead {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
@@ -970,7 +973,7 @@ aside.cta-quote span.quote {
   -ms-transition: top 0.5s ease,opacity 0.5s ease;
   transition: top 0.5s ease,opacity 0.5s ease;
 }
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #e1e1e1;
 }
@@ -1158,4 +1161,27 @@ body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testi
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
+}
+
+/*---------------------------------------------------------------------*/
+/*  4. CONTENT BOXES
+/*---------------------------------------------------------------------*/
+.content-boxes-icon > i {
+  color: #5cb85c;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  4.1. CONTENT BOXES - STYLE TWO
+/*---------------------------------------------------------------------*/
+.content-boxes.style-two > .content-boxes-icon > i {
+  background-color: #5cb85c;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  4.2. CONTENT BOXES - STYLE THREE
+/*---------------------------------------------------------------------*/
+.content-boxes.style-three > .content-boxes-icon > i {
+  background-color: #5cb85c;
 }

@@ -87,7 +87,7 @@
     $("header.video").background({
         source: {
             poster: "assets/img/bg-mobile-fallback.jpg",
-            mp4: "assets/mp4/matrix_reloaded_cut_cut_part2.mp4"
+            mp4: "assets/mp4/matrix_reloaded_finalcut.mp4"
         }
     });
 
