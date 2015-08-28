@@ -52,7 +52,7 @@ page "CNAME", layout: false
 
 set :css_dir, 'css'
 
-set :js_dir, 'jss'
+set :js_dir, 'js'
 
 set :images_dir, 'img'
 
@@ -65,7 +65,7 @@ configure :build do
     activate :minify_javascript
 
     # Enable cache buster
-    activate :asset_hash
+    # activate :asset_hash
 
     # Use relative URLs
     activate :relative_assets
