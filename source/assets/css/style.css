@@ -1186,3 +1186,16 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .content-boxes.style-three > .content-boxes-icon > i {
   background-color: #5cb85c;
 }
+
+/*---------------------------------------------------------------------*/
+/*  About Section
+/*---------------------------------------------------------------------*/
+
+.autocenter {
+    text-align: center;
+    margin:0 auto;
+}
+
+.autocenter2 {
+    margin:0 auto;
+}
