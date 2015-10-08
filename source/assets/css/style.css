@@ -995,13 +995,13 @@ footer.footer {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 50px 0 20px;
+  padding: 10px 0 20px;
 }
 footer.footer a {
   color: rgba(255, 255, 255, 0.7);
 }
 footer.footer a:hover {
-  color: white;
+  color: gray;
 }
 footer.footer p {
   font-size: 22px;

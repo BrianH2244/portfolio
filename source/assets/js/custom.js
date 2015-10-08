@@ -80,8 +80,8 @@
     // Formstone Background - Video Background Settings
     $("header.video").background({
         source: {
-            poster: "assets/img/bg-mobile-fallback.jpg",
-            mp4: "assets/mp4/Matrix_HD.mp4"
+            poster: "assets/img/bg/bg-mobile-fallback.jpg",
+            mp4: "assets/mp4/matrix_reloaded_cut_cut_part2.mp4"
         }
     });
 

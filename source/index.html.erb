@@ -10,6 +10,7 @@
     <%= stylesheet_link_tag 'assets/css/animate' %>
     <%= stylesheet_link_tag 'assets/css/background' %>
     <%= stylesheet_link_tag 'assets/css/style' %>
+    <%= stylesheet_link_tag 'assets/css/custom' %>
     <%= stylesheet_link_tag 'assets/font-awesome/css/font-awesome.min.css' %>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
@@ -25,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="assets/img/creative/logobrianB30.png" class="img-responsive" alt=""></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="assets/img/logos/logo-brian.png" class="img-responsive" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,10 +38,13 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Skills</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#work">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#articles">Articles</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -69,7 +73,7 @@
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/img/Brian4.jpeg" class="img-responsive autocenter2" height="450" width="450" alt="">
+                    <img src="assets/img/Brian.jpg" class="img-responsive autocenter2" height="450" width="450" alt="">
                 </div>
                 <div class="col-md-6 text-center">
                     <h1>Hi, I'm Brian Hildebrandt</h1>
@@ -83,7 +87,7 @@
 
     <!--        Skills        -->
 
-    <section id="services" class="services">
+    <section id="skills" class="services bg-gray">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12 wow fadeIn">
@@ -125,7 +129,7 @@
                                 <li>HTML5</li>
                                 <li>CSS3/Sass</li>
                                 <li>Javascript/Angular</li>
-                                <li>Node (environment)</li>
+                                <li>Node (runtime environment)</li>
                                 <li>Ruby</li>
                             </ul>
                         </div>
@@ -144,7 +148,6 @@
                                 <li>RESTful APIs</li>
                                 <li>MVC Architecture</li>
                                 <li>Object Oriented Programming</li>
-                                <li>Agile Development</li>
                                 <li>Test Driven Development</li>
                             </ul>
                         </div>
@@ -163,9 +166,8 @@
                             <h3 class="media-heading">Workflow</h3>
                             <ul>
                                 <li>Version/Source Control (Git)</li>
-                                <li>Grunt/Gulp</li>
+                                <li>Grunt</li>
                                 <li>Bower</li>
-                                <li>Jasmine</li>
                                 <li>JSON</li>
                             </ul>
                         </div>
@@ -182,8 +184,8 @@
                             <h3 class="media-heading">Frameworks & Databases</h3>
                             <ul>
                                 <li>Express</li>
-                                <li>MongoDB</li>
                                 <li>Ruby on Rails</li>
+                                <li>MongoDB</li>
                                 <li>SQLite</li>
                                 <li>PostgreSQL</li>
                             </ul>
@@ -202,7 +204,6 @@
                             <ul>
                                 <li>Firebug/Chrome Dev Tools</li>
                                 <li>Unix Shell</li>
-                                <li>Wireshark</li>
                                 <li>Linters/Hinters</li>
                                 <li>W3C Validation</li>
                             </ul>
@@ -215,32 +216,22 @@
 
     <!-- Portfolio -->
 
-    <section id="work" class="bg-gray">
+    <section id="portfolio">
         <div class="container text-center wow fadeIn">
             <h2>WHAT I'M DOING</h2>
             <hr class="colored">
             <p>Some recent projects I've been working on.</p>
-<!--        <div class="row content-row">
-                <div class="col-lg-12">
-                    <div class="portfolio-filter">
-                        <ul id="filters" class="clearfix">
-                            <li>
-                                <span class="filter active" data-filter="identity graphic logo web">Web Development and Design</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>-->
+            <br>
             <div class="row">
                 <div class="col-lg-12">
                     <div id="portfoliolist">
                         <div class="portfolio web graphic" data-cat="web graphic" href="#portfolioModal1" data-toggle="modal">
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/mhhSH.jpg" alt="">
+                                <img src="assets/img/portfolio/mhh-portfolio-small.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Men's Hormonal Health</a>
-                                        <span class="text-category">Web Development & Design</span>
+                                        <a class="text-title">www.menshormonalhealth.com</a>
+                                        <span class="text-category">Static Article/Advertising Site</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
@@ -248,11 +239,11 @@
                         </div>
                         <div class="portfolio web graphic" data-cat="web graphic" href="#portfolioModal2" data-toggle="modal">
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/gardenconcepts.jpg" alt="">
+                                <img src="assets/img/portfolio/gardenconcepts-portfolio-small.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Garden Concepts</a>
-                                        <span class="text-category">Web Development & Design</span>
+                                        <a class="text-title">gardenconcepts.ca</a>
+                                        <span class="text-category">Local Garden Stager's Website/Portfolio</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
@@ -260,11 +251,23 @@
                         </div>
                         <div class="portfolio web graphic" data-cat="web graphic" href="#portfolioModal3" data-toggle="modal">
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/shoppingcartbig.jpg" alt="">
+                                <img src="assets/img/portfolio/babSH2.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">MEAN Shopping App</a>
-                                        <span class="text-category">Web Development & Design</span>
+                                        <a class="text-title">www.broadenandbuild.com</a>
+                                        <span class="text-category">Dynamic Ruby on Rails Site</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio web graphic" data-cat="web graphic" href="#portfolioModal4" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/shoppingcartsmall.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Coming Soon</a>
+                                        <span class="text-category">MEAN Shopping App</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
@@ -272,6 +275,73 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="articles" class="bg-gray">
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>How I Think</h2>
+                    <hr class="colored">
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p class="left">A personal reference guide of dumbed down articles "cheat sheets", to help sift through the mess/maze of overly technical, missing, and often times buggy resources when learning how to code.</p>
+                    <p class="left">Highlighting the fundamental strategies, tools, languages and frameworks I'm using, to fast track my understanding, pace, and longevity of my career.</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <br>
+            <div class="row">
+                <h3 class="media-heading text-center">Articles</h3>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <div class="media">
+                        <div class="media-body">
+                            <ul>
+                                <li><a href="/problem-solving-methods.html">Problem Solving Methods</a></li>
+                                <li>Useful Tools</li>
+                                <li>Programming Logic</li>
+                                <li>Where to Find Quality Information</li>
+                                <li>Common Acronyms and Definitions</li>
+                                <li>Clean Code and Craftmanship</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="media">
+                        <div class="media-body">
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Sass</li>
+                                <li>Git</li>
+                                <li>Unix Shell Command Line</li>
+                                <li>Unit Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="media">
+                        <div class="media-body">
+                            <ul>
+                                <li>Javascript</li>
+                                <li>Databases (SQL and NoSQL)</li>
+                                <li>MEAN Stack</li>
+                                <li>Angular</li>
+                                <li>Node</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
@@ -333,12 +403,12 @@
     </section>
     <!--         Footer        -->
 
-    <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
+    <footer class="footer">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-phone"></i> Call</h4>
-                    <a href="tel:2892604347">289-260-4347</a>
+                    <a>289-260-4347</a>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-map-marker"></i> Location</h4>
@@ -366,7 +436,7 @@
     </footer>
     <!-- Portfolio Modals -->
     <!-- Men's Hormonal Health Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/blue_mountains1.jpg')">
+    <div class="portfolio-modal modal background-image" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/mhh-portfolio-bg.jpg')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -378,20 +448,32 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <!-- <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt=""> -->
                             <h2>Men's Hormonal Health</h2>
                             <hr class="colored">
-                            <p>A static content site themed on andropause and prostate cancer. Focus is to showcase informative articles, while maximizing advertising revenue, with a sleek, simple design.</p>
+                            <p>A static content site I started back in 2007, themed on andropause and prostate cancer, generating over <a href="assets/img/portfolio/BH-Adsense-Earnings.jpg" target="_blank">$110,000 in advertising revenue and 2 million unique visitors.</a> Focus is on showcasing informative articles, while maximizing advertising revenue, with a sleek, simple design.</p>
+                        </div>
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <h3>Features</h3>
+                            <ul class="left-align-text">
+                                <li>Multi-Page Responsive Design with Bootstrap.</li>
+                                <li>Built with <a href="https://middlemanapp.com/" target="_blank">Middleman framework</a> static site generator.</li>
+                                <li>Hosted on <a href="https://pages.github.com/" target="_blank">Github pages</a>.</li>
+                                <li>Client side, JQuery Bootstrap validated, Ajax enabled, contact form via <a href="https://formspree.io/" target="_blank">Formspree</a>.</li>
+                                <li>Client side, JQuery Bootstrap validated, Ajax enabled, newsletter via <a href="http://mailchimp.com/" target="_blank">MailChimp</a>. Currently over 1200 subscribers.</li>
+                                <li>Customized email address setup, forwarding through <a href="https://www.zoho.com/" target="_blank">Zoho</a> for the mail server and catch-all address, to a gmail alias for the interface.</li>
+                                <li>SEO optimized.</li>
+                                <li>65/100 mobile, 77/100 desktop speed score on <a href="https://developers.google.com/speed/pagespeed/insights/?url=gardenconcepts.ca&tab=mobile" target="_blank">PageSpeed Insights</a> and 86/100 on <a href="https://developers.google.com/speed/pagespeed/insights/?url=gardenconcepts.ca&tab=mobile" target="_blank">Pingdom Website Speed Test</a>. Lacking browser caching ability on Github pages.</li>
+                            </ul>
                         </div>
                         <br>
                         <div class="col-lg-8 col-lg-offset-2">
                             <ul class="list-inline item-details">
                                 <li>Website:
-                                    <strong><a href="http://www.menshormonalhealth.com">www.menshormonalhealth.com</a>
+                                    <strong><a href="http://www.menshormonalhealth.com" target="_blank">www.menshormonalhealth.com</a>
 </strong>
                                 </li>
                                 <li>Github:
-                                    <strong><a href="http://github.com/BrianH2244/mhh5">Men's Hormonal Health Repo</a>
+                                    <strong><a href="http://github.com/BrianH2244/mhh5" target="_blank">Men's Hormonal Health Repo</a>
 </strong>
                                 </li>
                             </ul>
@@ -402,8 +484,8 @@
             </div>
         </div>
     </div>
-    <!-- Broaden and Build 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/gardenconcepts-inside.jpg')">
+    <!-- Garden Concepts Portfolio -->
+    <div class="portfolio-modal modal background-image" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/gardenconcepts-portfolio-large.jpg')">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -417,17 +499,29 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <h2>Garden Concepts</h2>
                             <hr class="colored">
-                            <p>A website highlighting the services and portfolio of past work, for a garden stager/landscaper.</p>
+                            <p>A website highlighting the services and portfolio, for a garden stager/landscaper.</p>
+                        </div>
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <h3>Features</h3>
+                            <ul class="left-align-text">
+                                <li>One Page, Responsive Design with Bootstrap</li>
+                                <li>Built with <a href="https://middlemanapp.com/" target="_blank">Middleman framework</a> static site generator</li>
+                                <li>Hosted on <a href="https://pages.github.com/" target="_blank">Github pages</a>.</li>
+                                <li>Client side, JQuery Bootstrap validated, Ajax enabled, contact form via <a href="https://formspree.io/" target="_blank">Formspree</a></li>
+                                <li>Customized email address setup, forwarding through <a href="https://www.zoho.com/" target="_blank">Zoho</a> for the mail server and catch-all address, to a gmail alias for the interface.</li>
+                                <li>SEO optimized for local business</li>
+                                <li>76/100 mobile, 86/100 desktop speed score on <a href="https://developers.google.com/speed/pagespeed/insights/?url=gardenconcepts.ca&tab=mobile" target="_blank">PageSpeed Insights</a>. Lacking browser caching ability on Github pages.</li>
+                            </ul>
                         </div>
 <br>
                         <div class="col-lg-8 col-lg-offset-2">
                             <ul class="list-inline item-details">
                                 <li>Website:
-                                    <strong><a href="//gardenconcepts.ca">gardenconcepts.ca</a>
+                                    <strong><a href="//gardenconcepts.ca" target="_blank">gardenconcepts.ca</a>
 </strong>
                                 </li>
                                 <li>Github:
-                                    <strong><a href="//github.com/BrianH2244/gardenconcepts">Garden Concepts Repo</a>
+                                    <strong><a href="//github.com/BrianH2244/gardenconcepts" target="_blank">Garden Concepts Repo</a>
 </strong>
                                 </li>
                             </ul>
@@ -438,8 +532,8 @@
             </div>
         </div>
     </div>
-    <!-- Garden Concepts 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/shoppingcartbig.jpg')" class="img-responsive">
+    <!-- Broaden and Build -->
+    <div class="portfolio-modal modal background-image" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/babSH2.jpg')" class="img-responsive">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -451,18 +545,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <!-- <img src="assets/img/client-logos/clearskies1.png" class="img-responsive img-centered" alt=""> -->
-                            <h2>Shopping Cart App</h2>
+                            <h2>Broaden and Build</h2>
                             <hr class="colored">
-                            <p>A shopping cart (ecommerce) app developed with the MEAN stack.</p>
+                            <p>A dynamic Ruby on Rails 3.2 App, I designed to use as a "personal development tool", to store daily/weekly/project todo lists, favourite quotes, a journal, etc... with multi-user and admin capabilities. Currently updating to Rails 4.2, responsive design, and a little prettier to look at. ;)</p>
                         </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/grid/graphic/comingsoon.png" class="img-responsive img-centered" alt="">
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <h3>Features</h3>
+                            <ul class="left-align-text">
+                                <li>Simple authorization interface using Bootstrap framework.</li>
+                                <li>Uses SQLite3 locally and PostgreSQL in production.</li>
+                                <li>Hosted with <a href="https://www.heroku.com/" target="_blank">Heroku</a>.</li>
+                                <li>Uses "thin" webserver locally and in production.</li>
+                                <li>Uses "devise" for authentication and "cancan" for authorization.</li>
+                            </ul>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
                             <ul class="list-inline item-details">
+                                <li>Website:
+                                    <strong><a href="https://www.broadenandbuild.com" target="_blank">www.broadenandbuild.com</a>
+</strong>
+                                </li>
                                 <li>Github:
-                                    <strong><a href="#">Coming soon!</a>
+                                    <strong><a href="//github.com/BrianH2244/Build2" target="_blank">Broaden and Build Repo</a>
 </strong>
                                 </li>
                             </ul>
@@ -473,6 +577,52 @@
             </div>
         </div>
     </div>
+    <!-- MEAN Shopping Cart App -->
+    <div class="portfolio-modal modal background-image" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/shoppingcartbig.jpg')" class="img-responsive">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>MEAN Shopping Cart App</h2>
+                            <hr class="colored">
+                            <p>Build with the MEAN stack (MongoDB, Express.js, Angular.js, Node.js), as a shopping cart app. A mock eCommerce site to show off my full-stack javascript skills.</p>
+                        </div>
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <h3>Features</h3>
+                            <ul class="left-align-text">
+                                <li>Simple login interface using Bootstrap framework.</li>
+                                <li>Uses MongoDB locally and in production.</li>
+                                <li>Hosted with <a href="https://www.heroku.com/" target="_blank">Heroku</a>.</li>
+                                <li>Uses "thin" webserver locally and in production.</li>
+                                <li>Uses "devise" for authentication and "cancan" for authorization.</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                <li>Website:
+                                    <strong><a href="#" target="_blank">Coming Soon!</a>
+</strong>
+                                </li>
+                                <li>Github:
+                                    <strong><a href="//github.com/BrianH2244/meanjs" target="_blank">MEAN Shopping Cart App Repo</a>
+</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
@@ -491,5 +641,14 @@
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <!-- Custom Scripts -->
     <script src="assets/js/custom.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5508042-10', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>
