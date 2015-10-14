@@ -726,7 +726,7 @@ aside.cta-quote span.quote {
   display: none;
 }
 .portfolio-modal .modal-content {
-  color: white;
+  color: black;
   background: transparent;
   border-radius: 0;
   background-clip: border-box;
@@ -763,7 +763,7 @@ aside.cta-quote span.quote {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: white;
+  background-color: black;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -774,7 +774,7 @@ aside.cta-quote span.quote {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: white;
+  background-color: black;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -1003,8 +1003,11 @@ footer.footer a {
 footer.footer a:hover {
   color: gray;
 }
+footer.footer h4 {
+  font-size: 16px;
+}
 footer.footer p {
-  font-size: 22px;
+  font-size: 16px;
 }
 footer.footer .contact-details {
   margin: 75px 0;

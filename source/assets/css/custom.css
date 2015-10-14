@@ -1,4 +1,6 @@
-/* Margins */
+/*----------
+Custom Styles
+------------*/
 
 .left-align-text {
     text-align: left;
@@ -13,24 +15,31 @@
 
 /* Skills Section */
 #skills {
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 140px;
 }
 
 /* Portfolio Section */
 #portfolio {
-  padding-top: 120px;
-  padding-bottom: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* Articles Section */
 #articles {
-  padding-top: 120px;
-  padding-bottom: 220px;
+  padding-top: 80px;
+  padding-bottom: 260px;
+}
+
+/* Articles Section */
+#contact {
+  padding-top: 80px;
+  padding-bottom: 260px;
 }
 
 /* Footer */
 footer.footer {
+    z-index: 1;
     margin-top:0;
     overflow: hidden;
     text-align: center;
@@ -40,9 +49,7 @@ footer.footer {
     background-position: center;
 }
 
-/* Portfolio Background */
-
-.background-image:after {
+footer.footer:after {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -52,4 +59,33 @@ footer.footer {
   text-align: center;
   position: absolute;
   background: rgba(0,0,0,0.5);
+}
+
+/* Portfolio Background */
+
+.background-image:after {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    content: " ";
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    background-size:inherit;
+    background-position: center;
+}
+
+.portfolio-background-image {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: " ";
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    background: grey;
+    background-size:inherit;
+    background-position: center;
 }
