@@ -77,7 +77,7 @@
         }
     });
 
-    // Formstone Background - Video Background Settings
+    // Background - Video Background Settings
     $("header.video").background({
         source: {
             poster: "images/bg/bg-mobile-fallback.jpg",
