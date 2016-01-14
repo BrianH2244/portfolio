@@ -95,25 +95,25 @@ hr {
   height: 2px;
   margin: 15px auto;
 }
-hr.left {
-  margin: 15px auto 15px 0;
-}
-hr.right {
-  margin: 15px 0 15px auto;
-}
 hr.colored {
   border-color: #c2b49a;
+}
+hr.green {
+  border-color: #6dc066;
+}
+hr.blue {
+  border-color: #2B547E;
+}
+hr.yellow {
+  border-color: #FFFF00;
+}
+hr.orange {
+  border-color: #FFA500;
 }
 @media (min-width: 768px) {
   hr {
     max-width: 200px;
     margin: 20px auto;
-  }
-  hr.left {
-    margin: 20px auto 20px 0;
-  }
-  hr.right {
-    margin: 20px 0 20px auto;
   }
 }
 .navbar-fixed-top {
@@ -356,14 +356,42 @@ header .scroll-down .btn:hover {
     margin-bottom: 0;
   }
 }
+.portfolio-font {
+  color: white;
+  text-align: left;
+}
+.portfolio-font h3 {
+  text-align: left;
+}
+.portfolio-font .green-font a {
+  color: #6dc066;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.portfolio-font .blue-font a{
+  color: #2B547E;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.portfolio-font .yellow-font a{
+  color: #FFFF00;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.portfolio-font .orange-font a{
+  color: #FFA500;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
 .portfolio-modal {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-.portfolio-modal .modal-backdrop {
-  display: none;
 }
 .portfolio-modal .modal-content {
   color: black;
@@ -373,13 +401,18 @@ header .scroll-down .btn:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  min-height: 100%;
+  height: 100%;
+  overflow: auto;
   padding: 100px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 46px;
+}
+.portfolio-modal ul {
+  list-style: inside;
+  padding: 0;
 }
 .portfolio-modal .modal-content img {
   margin: 30px auto;
@@ -401,9 +434,9 @@ header .scroll-down .btn:hover {
 }
 .portfolio-modal .close-modal .lr {
   height: 75px;
-  width: 1px;
+  width: 2px;
   margin-left: 35px;
-  background-color: black;
+  background-color: white;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -413,14 +446,17 @@ header .scroll-down .btn:hover {
 }
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
-  width: 1px;
-  background-color: black;
+  width: 2px;
+  background-color: white;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
   z-index: 1052;
+}
+.portfolio-padding {
+    padding-left: 40px;
 }
 #portfoliolist .portfolio {
   width: 31%;
@@ -431,7 +467,6 @@ header .scroll-down .btn:hover {
 }
 #portfoliolist .portfolio .portfolio-wrapper {
   overflow: hidden;
-  height: 240px;
   position: relative !important;
   background: #222222;
   cursor: pointer;
