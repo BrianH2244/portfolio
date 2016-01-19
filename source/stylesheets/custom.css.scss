@@ -6,16 +6,12 @@ Custom Styles
     text-align: left;
 }
 
-.title-space {
-    padding-bottom:20px;
-}
-
 .center {
     text-align: center;
 }
 
 .autocenter {
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -31,39 +27,53 @@ a.disabledAnchor {
        color:white;
 }
 
-/* About Section */
+/* Section Spacing */
+
 #about {
-  padding-top: 0;
-  padding-bottom: 240px;
+  padding-top:5%;
+  padding-bottom: 5%;
 }
 
-/* Skills Section */
 #skills {
-  padding-top: 80px;
-  padding-bottom: 160px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
 }
 
-/* Portfolio Section */
 #portfolio {
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 5%;
+
 }
 
-/* Articles Section */
 #contact {
-  padding-top: 60px;
-  bottom: 0;
-  color:white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
 }
 
-/* About Section
-------------------------------------*/
+@media (min-width: 768px) {
+  #about {
+    height: 100%;
+  }
+  #skills {
+    height: 100%;
+  }
+  #portfolio {
+    height: 100%;
+  }
+}
+
+/* Section Spacing */
 
 .about-title {
-    padding-top:20px;
-    padding-bottom:0;
+    padding-top: 1%;
+    padding-bottom: 0;
+    margin-top: 4%;
+    margin-bottom: 0;
 }
 .about-title-space {
-    padding-top:80px;
-    padding-bottom:50px;
+    padding-bottom: 4%;
+}
+.portfolio-title-space {
+    padding-bottom: 1%;
 }
