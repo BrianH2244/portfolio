@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  color: #555;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -16,9 +17,6 @@ h6 {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-}
-section {
-  padding-bottom: 5%;
 }
 a {
   color: #c2b49a;
@@ -48,8 +46,8 @@ p.left {
 }
 hr {
   max-width: 100px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   height: 2px;
   margin: 15px auto;
 }
@@ -471,7 +469,7 @@ header .scroll-down .btn:hover {
 }
 #portfoliolist .portfolio {
   width: 30%;
-  margin: 1%;
+  margin: 0.5%;
   display: none;
   float: left;
   overflow: hidden;
@@ -483,7 +481,6 @@ header .scroll-down .btn:hover {
   cursor: pointer;
 }
 #portfoliolist .portfolio .portfolio-wrapper img {
-  max-width: 100%;
   position: relative;
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
@@ -540,7 +537,8 @@ header .scroll-down .btn:hover {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
   border-bottom: 1px solid #fff;
 }
 .floating-label-form-group input,
@@ -561,10 +559,10 @@ header .scroll-down .btn:hover {
   display: block;
   z-index: 0;
   position: relative;
-  top: 2em;
+  top: 0;
   margin: 0;
   font-size: 0.85em;
-  line-height: 1.764705882em;
+  line-height: 0;
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
