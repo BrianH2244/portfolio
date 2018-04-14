@@ -1,52 +1,53 @@
 ---
-build/images/logos/logo-brian.png: 2016-11-12 18:07:07.000000000 +00:00
-build/images/Brian7.jpg: 2016-12-20 19:36:54.000000000 +00:00
-build/images/Brian-3.jpg: 2016-12-05 22:54:32.000000000 +00:00
+build/images/Brian6.jpg: 2016-11-12 18:07:07.000000000 +00:00
 build/images/Brian10.jpg: 2016-12-05 22:54:32.000000000 +00:00
-build/images/portfolio/hearallclear-portfolio-small.jpg: 2018-02-28 15:20:46.438661781
+build/images/logos/logo-brian.png: 2016-11-12 18:07:07.000000000 +00:00
+build/images/Brian40.jpg: 2018-03-05 14:20:59.000000000 +00:00
+build/images/bg/steampunk-header-background.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/bg/bg-mobile-fallback.jpg: 2016-11-12 18:07:07.000000000 +00:00
+build/images/bg/contact-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/bg/breadcrumbs.png: 2016-11-12 18:07:08.000000000 +00:00
+build/images/bg/matrix-masthead.jpg: 2018-04-14 12:24:45.633755703 +00:00
+build/images/bg/12.png: 2016-11-12 18:06:59.000000000 +00:00
+build/images/bg/darkgreybg.png: 2016-11-12 18:07:06.000000000 +00:00
+build/images/bg/skills-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/Brian-3.jpg: 2016-12-05 22:54:32.000000000 +00:00
+build/images/Brian7.jpg: 2016-12-20 19:36:54.000000000 +00:00
+build/images/Brian41.jpg: 2018-02-28 02:40:05.000000000 +00:00
+build/images/Brian_R.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/a-long-road2.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/inspirational-man2.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/gardenconcepts-portfolio-small.jpg: 2016-11-12 18:07:06.000000000
   +00:00
+build/images/portfolio/bab-portfolio-small.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/comingsoon.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/mathapp-small.jpg: 2016-11-12 18:07:05.000000000 +00:00
+build/images/portfolio/happyinaseaofsadness2.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/mhh-portfolio-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/gardenconcepts-header.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/mhh-portfolio-small.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/mathapp-small2.jpg: 2016-11-12 18:07:05.000000000 +00:00
+build/images/portfolio/bab-portfolio-small2.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/happyinaseaofsadness.jpg: 2016-11-12 18:06:59.000000000 +00:00
+build/images/portfolio/math-app-portfolio.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/a-long-road.jpg: 2016-11-12 18:07:06.000000000 +00:00
 build/images/portfolio/BH-Adsense-Earnings.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/grid/graphic/comingsoon.png: 2018-02-28 01:54:21.500647490
+build/images/portfolio/hearallclear-portfolio-small.jpg: 2018-02-28 15:20:46.000000000
+  +00:00
+build/images/portfolio/mhh-portfolio-small2.jpg: 2016-11-12 18:07:05.000000000 +00:00
+build/images/portfolio/gardenconcepts-portfolio-large2.jpg: 2016-11-12 18:07:05.000000000
+  +00:00
+build/images/portfolio/gardenconcepts-portfolio-large.jpg: 2016-11-12 18:07:06.000000000
+  +00:00
+build/images/portfolio/shoppingcartbig.jpg: 2016-11-12 18:07:06.000000000 +00:00
+build/images/portfolio/countrycollections-portfolio-small.jpg: 2018-02-28 15:20:46.000000000
+  +00:00
+build/images/portfolio/shoppingcartsmall.jpg: 2016-11-12 18:07:05.000000000 +00:00
+build/images/portfolio/grid/graphic/comingsoon.png: 2018-02-28 01:54:21.000000000
   +00:00
 build/images/portfolio/grid/identity/mhhSH.jpg: 2016-11-12 18:07:05.000000000 +00:00
 build/images/portfolio/grid/identity/babSH2.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/bab-portfolio-small2.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/shoppingcartbig.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/happyinaseaofsadness2.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/portfolio/mhh-portfolio-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/portfolio/mhh-portfolio-small2.jpg: 2016-11-12 18:07:05.000000000 +00:00
-build/images/portfolio/gardenconcepts-portfolio-small.jpg: 2016-11-12 18:07:06.000000000
+build/images/portfolio/hearallclear-portfolio-small2.jpg: 2018-03-01 16:13:20.000000000
   +00:00
-build/images/portfolio/a-long-road2.jpg: 2016-11-12 18:07:06.000000000 +00:00
 build/images/portfolio/gardenconcepts-portfolio-small2.jpg: 2016-11-12 18:07:05.000000000
   +00:00
-build/images/portfolio/comingsoon.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/bab-portfolio-small.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/portfolio/mhh-portfolio-small.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/portfolio/math-app-portfolio.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/gardenconcepts-header.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/gardenconcepts-portfolio-large2.jpg: 2016-11-12 18:07:05.000000000
-  +00:00
-build/images/portfolio/countrycollections-portfolio-small.jpg: 2018-02-28 15:20:46.438661781
-  +00:00
-build/images/portfolio/shoppingcartsmall.jpg: 2016-11-12 18:07:05.000000000 +00:00
-build/images/portfolio/mathapp-small.jpg: 2016-11-12 18:07:05.000000000 +00:00
-build/images/portfolio/mathapp-small2.jpg: 2016-11-12 18:07:05.000000000 +00:00
-build/images/portfolio/inspirational-man2.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/portfolio/a-long-road.jpg: 2016-11-12 18:07:06.000000000 +00:00
-build/images/portfolio/gardenconcepts-portfolio-large.jpg: 2016-11-12 18:07:06.000000000
-  +00:00
-build/images/portfolio/hearallclear-portfolio-small2.jpg: 2018-03-01 16:13:20.284956645
-  +00:00
-build/images/portfolio/happyinaseaofsadness.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/Brian6.jpg: 2016-11-12 18:07:07.000000000 +00:00
-build/images/Brian40.jpg: 2018-03-05 14:20:59.679917738 +00:00
-build/images/Brian_R.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/Brian41.jpg: 2018-02-28 02:40:05.213281492 +00:00
-build/images/bg/skills-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/bg/breadcrumbs.png: 2016-11-12 18:07:08.000000000 +00:00
-build/images/bg/darkgreybg.png: 2016-11-12 18:07:06.000000000 +00:00
-build/images/bg/bg-mobile-fallback.jpg: 2016-11-12 18:07:07.000000000 +00:00
-build/images/bg/contact-bg.jpg: 2016-11-12 18:06:59.000000000 +00:00
-build/images/bg/12.png: 2016-11-12 18:06:59.000000000 +00:00
-build/images/bg/steampunk-header-background.jpg: 2016-11-12 18:07:06.000000000 +00:00
