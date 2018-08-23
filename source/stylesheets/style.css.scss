@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-align: center;
 }
+
+p {
+  line-height: 1.5;
+  margin: 20px 0;
+}
 a {
   color: #c2b49a;
   -webkit-transition: all 0.5s;
@@ -217,9 +222,9 @@ header .intro-content {
   text-align: center;
   position: relative;
 }
-header .brand-name {
+header h1 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 50px;
+  font-size: 36px;
   line-height: 50px;
   text-transform: uppercase;
   font-weight: 900;
@@ -278,7 +283,7 @@ header .scroll-down .btn:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-  header .brand-name {
+  header h1 {
     font-size: 70px;
     line-height: 70px;
   }

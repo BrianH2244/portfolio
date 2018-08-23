@@ -77,13 +77,7 @@
         }
     });
 
-    // Background - Video Background Settings
-    $("header.video").background({
-        source: {
-            poster: "images/bg/bg-mobile-fallback.jpg",
-            mp4: "mp4/matrix_header.mp4"
-        }
-    });
+    var vid = document.getElementById("bgvid");
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
     $('body').scrollspy({
